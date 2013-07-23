@@ -211,7 +211,7 @@ $(document).on('ready', function () {
         fb.router = new fb.MobileRouter();
         Backbone.history.start();
 	    console.log('FB init starting');
-        FB.init({ appId: "280536862090310", nativeInterface: CDV.FB, useCachedDialogs: false, status: true });
+        FB.init({ appId: "404063823048178", nativeInterface: CDV.FB, useCachedDialogs: false, status: true });
         console.log('FB init after');
 
 //        FB.init({ appId: "465374093524857", nativeInterface: CDV.FB, useCachedDialogs: false, status: true });
